@@ -1,0 +1,84 @@
+/*estilo de la pagina*/
+
+body{
+    background: rgb(243, 243, 247);
+   
+    
+    }
+    sec
+    h1{
+        
+
+        text-align: center;
+        text-transform: uppercase;
+    font-weight: 900; 
+}
+p{
+    text-align: center;
+
+}
+picture{
+    display: flex;
+    justify-content: center;
+}
+
+picture img{
+    width: 28%;
+
+}
+
+#opciones li{
+    display: inline-block; /*la lista la coloca horizontalmente*/
+
+
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid red;
+    padding: 5px; /*margen interior*/
+    /*Margen interior*/
+    border-radius: 10px ;
+    font-size: 1.5em;
+    display: inline-block;
+
+}
+.boton:hover{
+    background-color: red;
+}
+p{
+    font-size: 1.8em;
+}
+#opciones{
+
+    text-align: center;
+}
+h1{
+
+    text-align: center;
+
+}
+#botones{
+    text-align: center;
+    list-style: none;
+}
+#botones li{
+    display: inline-block;
+}
+.secciones{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 36%, rgba(0,212,255,1) 95%);
+        color: beige; /* color de letra de la pagina*/
+}
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 36%, rgba(0,212,255,1) 95%);
+        color: beige; /* color de letra de la pagina*/
+}
+footer{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 36%, rgba(0,212,255,1) 95%);
+        color: beige; /* color de letra de la pagina*/
+}
