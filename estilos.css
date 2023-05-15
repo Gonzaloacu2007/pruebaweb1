@@ -1,84 +1,140 @@
 /*estilo de la pagina*/
 
-body{
-    background: rgb(243, 243, 247);
-   
-    
-    }
-    sec
-    h1{
-        
+body {
 
-        text-align: center;
-        text-transform: uppercase;
-    font-weight: 900; 
+    background: rgb(0, 0, 0);
+    
+
 }
-p{
+
+sec h1 {
+
+
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+p {
     text-align: center;
 
 }
-picture{
+
+picture {
     display: flex;
     justify-content: center;
 }
 
-picture img{
+picture img {
     width: 28%;
+    box-shadow: 60px -16px rgb(3, 3, 3);
+    border-radius: 10px 100px / 120px;
 
 }
 
-#opciones li{
-    display: inline-block; /*la lista la coloca horizontalmente*/
+#opciones li {
+    display: inline-block;
+    /*la lista la coloca horizontalmente*/
 
 
 }
 
-.link{
+.link {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    border: 2px solid red;
-    padding: 5px; /*margen interior*/
+    color: rgb(0, 117, 250);
+    border: 2px solid rgb(0, 132, 255);
+    padding: 5px;
+    /*margen interior*/
     /*Margen interior*/
-    border-radius: 10px ;
+    border-radius: 10px;
     font-size: 1.5em;
     display: inline-block;
 
 }
-.boton:hover{
-    background-color: red;
+
+.boton:hover {
+    background-color: rgb(1, 98, 243);
 }
-p{
+
+p {
     font-size: 1.8em;
 }
-#opciones{
+
+#opciones {
 
     text-align: center;
 }
-h1{
+
+h1 {
 
     text-align: center;
 
 }
-#botones{
+
+#botones {
     text-align: center;
     list-style: none;
 }
-#botones li{
+
+#botones li {
     display: inline-block;
 }
-.secciones{
 
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 36%, rgba(0,212,255,1) 95%);
-        color: beige; /* color de letra de la pagina*/
+#botones {
+    margin: 10px;
+    padding: 10px;
 }
-header{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 36%, rgba(0,212,255,1) 95%);
-        color: beige; /* color de letra de la pagina*/
+
+#botones {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(1, 112, 238);
+    padding: 5px;
+    /*margen interior*/
+    border-radius: 10px;
 }
-footer{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 36%, rgba(0,212,255,1) 95%);
-        color: beige; /* color de letra de la pagina*/
+
+.secciones {
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 36%, rgba(0, 212, 255, 1) 95%);
+    color: beige;
+    /* color de letra de la pagina*/
+}
+
+header {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 36%, rgba(0, 212, 255, 1) 95%);
+    color: beige;
+    /* color de letra de la pagina*/
+}
+
+footer {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 36%, rgba(0, 212, 255, 1) 95%);
+    color: beige;
+    /* color de letra de la pagina*/
+}
+
+#redes {
+    text-align: inline-block;
+}
+
+#redes {
+    text-align: center;
+
+}
+
+#redes {
+    display: inline-block;
+    margin: 20px;
+}
+.info{
+    text-decoration: none;
+    color: rgb(155, 224, 221);
+    border: 2px solid rgb(1, 112, 238);
+    padding: 5px;
+    /*margen interior*/
+    border-radius: 10px;
+  
 }
